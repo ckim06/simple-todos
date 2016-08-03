@@ -1,8 +1,9 @@
 import angular from 'angular';
 import angularMeteor from 'angular-meteor';
-import todosList from '../imports/components/todosList/todosList';
+import '../imports/components/googleMap/googleMap';
+
 
 angular.module('crimeApp', [
   angularMeteor,
-  todosList.name
+  'googleMap'
 ]);
